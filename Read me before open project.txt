@@ -1,0 +1,80 @@
+Custom UITabbar and TabbarItem Layout in iOS Mobile App Base Project
+
+
+1.Project Overview
+This project is a foundational framework for an iOS mobile app, aiming to achieve a highly customized UITabbar and TabbarItem layout. Through inheritance, the display and hiding of the Tabbar are encapsulated within a base class to enhance code maintainability and scalability.
+
+
+
+
+2.Architecture
+* BaseClasses
+   * TabbarController
+      * LZ_TabbarController.swift
+      * LZ_CustomTabbar.swift
+   * BaseViewController
+      * LZ_BaseViewController.swift
+   * NavigationController
+      * LZ_NavigationController.swift
+* Home
+   * HomeViewController.swift
+      * LZ_HomeViewController.swift
+      * LZ_SecondViewController.swift
+* Resource
+   * images
+
+
+
+
+3.Class Descriptions
+3.1 LZ_NavigationController
+Responsible for managing the logic of displaying and hiding the tabbar
+
+
+3.2 LZ_TabbarController
+Defines the custom Tabbar. load all the sub controllers
+
+
+3.3 LZ_CustomTabbar
+Defines the custom TabbarItem, reset items layout
+
+
+3.4 LZ_BaseViewController
+Base class for all ViewControllers with unified event handling
+
+
+4. Usage Instructions
+environment
+macOS    Sonoma 14.2.1
+Xcode      15.2 (15C500b)
+iOS          13(minium)
+swift             5.X
+
+
+
+
+5. Considerations
+The pod file can be ignored because there are no library dependencies
+
+
+
+
+
+
+6. Additional
+In this project, I used my experience in iOS development by using a programming language that I am familiar with.Serving as the foundational structure for all new projects during my career in China.The structures are simple but follow MVC(Model-View-Controller)design architecture.
+
+
+In summary, this project shows my skills and experience in iOS development.
+
+
+
+
+
+
+
+
+
+
+
+
