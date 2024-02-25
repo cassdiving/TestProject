@@ -20,6 +20,8 @@ class LZ_HomeViewController: LZ_BaseViewController {
         view.backgroundColor = .cyan
         hidenNavigationBar = true
         
+        print("......")
+        
         // setup button
         let button = UIButton(type: .custom)
         button.setTitle("Push", for: .normal)
